@@ -1,16 +1,29 @@
-html
-{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.heading{
-    color: red;
-}
-
-.paris-para{
-    background-color: beige ;
+.heading {
+  color: red;
 }
 
-#london-heading{
-    background-color: pink;
+.paris-para {
+  background-color: beige;
 }
 
+#london-heading {
+  background-color: pink;
+}
+
+.filler-span {
+  padding: 0 5px;
+  /* padding: 0 5px 0 5px;
+    padding: 0 5px 0;
+    padding-left: 5px;
+    padding-right: 5px; */
+  border-top: 2px solid black;
+  border-bottom: 4px gray solid;
+}
+
+.para-with-span{
+    border: 10px lightgreen ridge;
+    margin: 5px;
+}
